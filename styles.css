@@ -203,6 +203,7 @@ img {
   border: 1px solid var(--clr-dark);
 }
 
+
 .priority__anchor a {
   display: inline-block;
   background-color: var(--clr-primary);
@@ -214,6 +215,21 @@ img {
 }
 
 .priority__anchor a:hover {
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+  border: 1px solid var(--clr-dark);
+}
+
+.properties_anchor a {
+  display: inline-block;
+  background-color: var(--clr-primary);
+  color: var(--clr-light);
+  padding: 1rem 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--clr-dark);
+}
+
+.properties_anchor a:hover {
   background-color: var(--clr-light);
   color: var(--clr-dark);
   border: 1px solid var(--clr-dark);
@@ -294,6 +310,7 @@ img {
   background-color: var(--clr-light);
   display: flex;
   flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .cards img {
@@ -305,28 +322,23 @@ img {
   transition: all 0.5s ease-in-out;
 }
 
-.cards__details h5 {
+.cards__details {
+  padding: 3rem
+}
+
+.cards__details h4 {
   font-weight: bold;
-  margin-top: 2rem;
-  font-size: 27px;
-}
-
-.cards__details p {
-  padding-left: 2rem;
-}
-
-.cards__details h5 {
-  padding: 0 2rem;
 }
 
 .proper_table {
-  padding: 0 2rem;
+  margin-top: 2rem;
 }
 
 .my-table {
   margin-top: 2rem;
   width: 214%;
   border-collapse: separate;
+  border-spacing: 0 1rem;
 }
 
 .my-table td {
@@ -334,19 +346,18 @@ img {
 }
 
 #stats {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .card_btn {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
   padding-right: 4rem;
   align-items: flex-end;
 }
 
-.card__text {
-  font-weight: bold;
+.card_btn {
+ margin-top: 2rem;
 }
 
 /* c priority */

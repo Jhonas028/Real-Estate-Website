@@ -203,7 +203,6 @@ img {
   border: 1px solid var(--clr-dark);
 }
 
-
 .priority__anchor a {
   display: inline-block;
   background-color: var(--clr-primary);
@@ -248,9 +247,9 @@ img {
   text-align: left;
 }
 
-/* c get started */
+/* c banner*/
 
-.getStarted {
+.banner {
   background-image: url("./IMG/home\ banner.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -258,23 +257,19 @@ img {
   height: 95vh;
 }
 
-.getStarted__text {
+.banner__text {
   padding-top: 15rem;
   width: 52rem;
 }
 
-.getStarted__text h2 {
+.banner__text h2 {
   color: var(--clr-primary);
   font-weight: bold;
 }
 
-/* c poperties */
+/* m banner */
 
-.proper {
-  padding: 4rem;
-  background-color: var(--clr-secondary);
-  margin: -2;
-}
+/* c poperties */
 
 .properties {
   background-color: var(--clr-secondary);
@@ -323,7 +318,7 @@ img {
 }
 
 .cards__details {
-  padding: 3rem
+  padding: 3rem;
 }
 
 .cards__details h4 {
@@ -357,7 +352,7 @@ img {
 }
 
 .card_btn {
- margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .card__text p {

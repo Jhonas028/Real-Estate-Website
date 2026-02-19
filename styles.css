@@ -352,12 +352,16 @@ img {
 .card_btn {
   display: flex;
   justify-content: space-between;
-  padding-right: 4rem;
+  padding-right: 1.9rem;
   align-items: flex-end;
 }
 
 .card_btn {
  margin-top: 2rem;
+}
+
+.card__text p {
+  font-weight: bold;
 }
 
 /* c priority */

@@ -203,6 +203,22 @@ img {
   border: 1px solid var(--clr-dark);
 }
 
+.priority__anchor a {
+  display: inline-block;
+  background-color: var(--clr-primary);
+  color: var(--clr-light);
+  padding: 1rem 1.2rem;
+  border-radius: 0.5rem;
+  margin-top: 3rem;
+  border: 1px solid var(--clr-dark);
+}
+
+.priority__anchor a:hover {
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+  border: 1px solid var(--clr-dark);
+}
+
 /* c footer */
 
 .footer {

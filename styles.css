@@ -5,6 +5,7 @@
   --clr-secondary: #4668a5;
   --clr-light: #ffffff;
   --clr-dark: #2c3333;
+  --clr-gray: #d9d9d9;
   --font: "Poppins", sans-serif;
 }
 
@@ -674,6 +675,248 @@ img {
 
   .anch__div {
     margin-top: 6rem;
+  }
+}
+
+/* c About */
+
+.about {
+  background-image: url("./IMG/about\ banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+}
+
+.about__text {
+  padding-top: 15rem;
+  max-width: 65rem;
+}
+
+.about__text h2 {
+  color: var(--clr-primary);
+  font-weight: bold;
+}
+
+.about__text p,
+#about_anchor {
+  margin-top: 5rem;
+}
+
+/* c2 about */
+
+.about__properties {
+  padding: 8rem 25rem;
+  width: 90%;
+  background-color: var(--clr-light);
+  margin: auto;
+}
+.about__title h3 {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.about__title p {
+  text-align: justify;
+}
+
+.about__section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+  box-shadow: rgba(0, 0.2, 0.2, 0.24) 0px 3px 8px;
+}
+.about__img {
+  height: 400px; /* adjust this */
+}
+.about__img img {
+  width: 100%;
+  height: 105.5%;
+  object-fit: conta;
+}
+
+.about__infos {
+  background-color: var(--clr-gray);
+  padding: 4rem;
+}
+
+.ab__titles h4 {
+  margin-top: 4rem;
+  font-weight: bold;
+}
+.ab__description {
+  text-align: justify;
+  margin-top: 4rem;
+}
+
+/* m about */
+@media screen and (max-width: 520px) {
+  .about__properties {
+    padding: 4rem 1.5rem;
+    width: 100%;
+  }
+
+  .about__title h3 {
+    padding-bottom: 2rem;
+  }
+
+  .about__title p {
+    text-align: justify;
+  }
+
+  .about__section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 4rem;
+  }
+
+  .about__img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .about__infos {
+    padding: 2rem;
+  }
+
+  .ab__titles h4 {
+    margin-top: 2rem;
+  }
+}
+
+/* contacts */
+
+.contact {
+  padding: 8rem 0;
+}
+.contact__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact__title h2 {
+  font-weight: bold;
+}
+
+.contact__title {
+  width: 80%;
+}
+
+#c_par {
+  margin-bottom: 5rem;
+}
+
+/* contact cards */
+
+.contact__card {
+  display: flex;
+  align-items: center;
+  justify-self: start;
+  width: 500px;
+  gap: 1.5rem;
+  background: #fff;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contact__icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--clr-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 28px;
+}
+
+.contact__details h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* contact right side */
+
+.contact__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.c__horizontal {
+  display: flex;
+  gap: 2rem;
+}
+
+/* vertical inputs stacked */
+.c__vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* general input styles */
+.form__input {
+  padding: 25px 16px;
+  border-radius: 20px;
+  border: 2px solid var(--clr-primary);
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* focus effect */
+.form__input:focus {
+  border-color: var(--clr-primary);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+/* message input */
+#c__message {
+  height: 20rem;
+  padding: 12px 16px;
+  border-radius: 20px;
+  border: 2px solid var(--clr-primary);
+}
+
+#contact__anch {
+  margin-top: 7rem;
+}
+
+.form__input::placeholder {
+  font-weight: bolder;
+  font-size: 18px;
+  color: var(--clr-dark);
+}
+
+/* -m contact */
+@media screen and (max-width: 520px) {
+  .contact__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* Center the Send Message button */
+  #contact__anch {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #contact__anch a {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    font-size: 1.6rem;
   }
 }
 /* ASSETS */

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="this is contact page" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__logo">
+            <a href="./getstarted.html">
+              <img src="./IMG/logo.png" alt="This is a logo" />
+            </a>
+          </div>
+          <nav class="header__nav">
+            <ul>
+              <li><a href="./properties.html">Properties</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="header__gstarted">
+            <a href="#">Get Started</a>
+          </div>
+          <div class="toggle__menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="contact">
+      <div class="container">
+        <div class="contact__wrapper">
+          <!-- 1st -->
+          <div class="contact__title">
+            <h5>CONTACT US</h5>
+            <h2>Let's working together</h2>
+            <h5 id="c_par">
+              Thank you for your interest in our services. <br />We're excited
+              to hear from you.
+            </h5>
+            <!-- 1 cards -->
+            <div class="contact__card">
+              <div class="contact__icon">
+                <i class="fa-regular fa-headphones"></i>
+              </div>
+              <div class="contact__details">
+                <p>Call us for inquiry</p>
+                <h4>+258 (549) 2158 3215</h4>
+              </div>
+            </div>
+            <!-- 2 cards -->
+            <div class="contact__card">
+              <div class="contact__icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact__details">
+                <p>Email anytime</p>
+                <h4>realestate@mail.com</h4>
+              </div>
+            </div>
+            <!-- 3 cards -->
+            <div class="contact__card">
+              <div class="contact__icon">
+                <i class="fa-solid fa-map-pin"></i>
+              </div>
+              <div class="contact__details">
+                <p>Visit our office</p>
+                <h4>15 Maniel Lane, Frontline Berlin</h4>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd -->
+          <div class="contact__inputs">
+            <div class="c__horizontal">
+              <!-- horizontal aligned -->
+              <input type="text" class="form__input" placeholder="First Name" />
+              <input type="text" class="form__input" placeholder="Last name" />
+            </div>
+            <div class="c__vertical">
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Email Address"
+              />
+              <textarea
+                id="c__message"
+                class="form__input"
+                placeholder="Message"
+              ></textarea>
+
+              <div id="contact__anch" class="header__gstarted">
+                <a href="#">Send Message</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <p>
+            Copyright © 2025 Real Estate, designed by HM. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -253,7 +253,7 @@ img {
   }
 
   nav.header__nav.open {
-    right: 0; /* slide in */
+    right: 0;
   }
 
   nav.header__nav ul {
@@ -528,9 +528,8 @@ img {
     justify-content: flex-end;
   }
 }
-/*c testimony */
+/*c testimonials */
 
-/* Testimonials */
 .testimonials {
   padding: 0;
   background-color: var(--clr-dark);
@@ -665,12 +664,16 @@ img {
   }
 
   .mp__description {
-    padding: 1rem 0;
+    padding: 3rem 0;
     font-size: 0.95rem;
   }
   .continue__anch {
     font-size: 18px;
     margin-bottom: 2rem;
+  }
+
+  .anch__div {
+    margin-top: 6rem;
   }
 }
 /* ASSETS */

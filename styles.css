@@ -635,6 +635,7 @@ img {
 }
 
 .mp__description {
+  text-align: justify;
   padding: 2rem 0;
 }
 
@@ -661,7 +662,6 @@ img {
   .mp__description {
     padding: 1rem 0;
     font-size: 0.95rem;
-    text-align: justify;
   }
 
   .mainProperties__img img {

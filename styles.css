@@ -303,8 +303,13 @@ img {
 
 /* m footer */
 @media screen and (max-width: 520px) {
+
+  .footer {
+      padding: 2rem 0;
+      margin: -2;
+    }
   .footer p {
-    font-size: small;
+    font-size: x-small;
   }
 }
 
@@ -765,38 +770,61 @@ img {
 
 /* m about */
 @media screen and (max-width: 520px) {
-  .about__properties {
-    padding: 4rem 1.5rem;
-    width: 100%;
-  }
 
-  .about__title h3 {
-    padding-bottom: 2rem;
-  }
-
-  .about__title p {
+  .about__text {
+    padding-top: 8rem;
     text-align: justify;
   }
 
-  .about__section {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 4rem;
+  .about__text h2 {
+    text-align: center;
   }
 
-  .about__img img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  #about_anchor {
+    display: flex;
+    justify-content: center;
   }
 
-  .about__infos {
-    padding: 2rem;
+  .about__wrapper{
+    padding: 0 0;
   }
 
-  .ab__titles h4 {
+  .about__offers {
+    padding: 0;
+    margin: 2rem 0;
+
+  }
+
+  .about__cards--wrapper {
+    display: flex;
+    flex-direction: row;
     margin-top: 2rem;
+    background-color: var(--clr-gray);
   }
+
+  .about__cards--img,
+  .about__cards--texts {
+    flex: 0 0 48%;
+    margin-top: 0;
+    margin: 0;
+  }
+
+  .about__cards--texts {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .about__cards--texts p {
+    margin-top: 1rem;
+    font-size: 8.5px;
+  }
+
+  .about__cards--texts h4 {
+    font-size: 14px;
+}
+
+
+
 }
 
 /* contacts */

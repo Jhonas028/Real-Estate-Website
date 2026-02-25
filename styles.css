@@ -179,7 +179,7 @@ img {
   transition: 0.5s ease-in-out;
 }
 
-.header__gstarted a {
+.button__primary a {
   display: inline-block;
   background-color: var(--clr-primary);
   color: var(--clr-light);
@@ -188,7 +188,7 @@ img {
   border: 1px solid var(--clr-dark);
 }
 
-.header__gstarted a:hover {
+.button__primary a:hover {
   background-color: var(--clr-light);
   color: var(--clr-dark);
   border: 1px solid var(--clr-dark);
@@ -284,7 +284,7 @@ img {
     transform: rotate(-45deg) translate(5px, -5px);
   }
 
-  .header__gstarted {
+  .button__primary {
     display: none;
   }
 }
@@ -303,11 +303,10 @@ img {
 
 /* m footer */
 @media screen and (max-width: 520px) {
-
   .footer {
-      padding: 2rem 0;
-      margin: -2;
-    }
+    padding: 2rem 0;
+    margin: -2;
+  }
   .footer p {
     font-size: x-small;
   }
@@ -436,7 +435,7 @@ img {
   font-weight: bold;
 }
 
-.properties_anchor a {
+.button__primary a {
   display: inline-block;
   background-color: var(--clr-primary);
   color: var(--clr-light);
@@ -445,7 +444,7 @@ img {
   border: 1px solid var(--clr-dark);
 }
 
-.properties_anchor a:hover {
+.button__primary a:hover {
   background-color: var(--clr-light);
   color: var(--clr-dark);
   border: 1px solid var(--clr-dark);
@@ -576,7 +575,6 @@ img {
 }
 
 .testimonials__content p:last-child {
-  color: var(--clr-light);
   margin: 0.5rem 0;
   margin-bottom: 5rem;
 }
@@ -710,25 +708,23 @@ img {
 
 /* about section 2 */
 
-.about__wrapper{
+.about__wrapper {
   padding: 0 12rem;
 }
 
 .about__offers {
   padding: 9rem;
   margin: -2rem 0;
-
 }
 
-.about__title h2{
+.about__title h2 {
   font-weight: bold;
   text-align: center;
 }
 .about__title p {
   margin-top: 2rem;
 }
-.about__title{
-
+.about__title {
   text-align: justify;
 }
 
@@ -741,7 +737,6 @@ img {
   width: 100%;
   padding: 0 12re;
   background-color: var(--clr-gray);
-
 }
 
 .about__cards--img {
@@ -754,11 +749,10 @@ img {
   height: auto;
 }
 
-.about__cards--texts{
+.about__cards--texts {
   text-align: justify;
   padding: 3rem;
   margin-top: 2rem;
- 
 }
 
 .about__cards--texts h4 {
@@ -770,7 +764,6 @@ img {
 
 /* m about */
 @media screen and (max-width: 520px) {
-
   .about__text {
     padding-top: 8rem;
     text-align: justify;
@@ -785,14 +778,13 @@ img {
     justify-content: center;
   }
 
-  .about__wrapper{
+  .about__wrapper {
     padding: 0 0;
   }
 
   .about__offers {
     padding: 0;
     margin: 2rem 0;
-
   }
 
   .about__cards--wrapper {
@@ -821,10 +813,7 @@ img {
 
   .about__cards--texts h4 {
     font-size: 14px;
-}
-
-
-
+  }
 }
 
 /* contacts */
@@ -996,4 +985,34 @@ h6 {
 
 p {
   font-size: 18px;
+}
+
+@media screen and (max-width: 520px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 18px;
+  }
 }
